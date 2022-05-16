@@ -41,7 +41,7 @@ const Login = (props) => {
     const identifier = setTimeout(() => {
       console.log('checking form validity');
       setFormIsValid(
-        emailState.isValid && passwordState.isValid
+        emailIsValid && passwordIsValid
       );
     }, 500);
 
